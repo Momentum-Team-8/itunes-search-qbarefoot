@@ -78,11 +78,7 @@ function displayResults(song) {
     artist.className = "artist"
     lilBtn.className = "preview-btn"
     songEl.appendChild(sound)
-    songEl.appendChild(picture)
-    songEl.appendChild(artist)
-    songEl.appendChild(title)
-    songEl.appendChild(lilBtn)
-    songContainer.appendChild(songEl)
+
 
     lilBtn.addEventListener('click', e => {
         playMusic(e.target.parentElement)
